@@ -2,7 +2,7 @@
 
 ### This App To buy books.
 
-A few resources to get you started if this is your first Flutter project:
+A few resources to project:
 
 - [Api Link](https://www.googleapis.com/books/v1/volumes?Filtering=free-ebooks&Sorting=newest&q=programming)
 
