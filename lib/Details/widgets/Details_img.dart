@@ -14,8 +14,8 @@ class Details_img extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(15),
         child: SizedBox(
-          width: 180,
-          height: 250,
+          width: MediaQuery.of(context).size.width * 0.45,
+          height: MediaQuery.of(context).size.height * 0.34,
           child: Image.network(
             book.imageLink!,
             fit: BoxFit.cover,

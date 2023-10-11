@@ -20,7 +20,6 @@ class Api_Service {
     }
     var data = jsonDecode(response.body);
 
-    // book_model book = book_model.fromJson(data["items"]);
     List<book_model> Booklist = [];
     for (int i = 0; i < data["items"].length; i++) {
       Booklist.add(book_model.fromJson(data["items"][i]));
