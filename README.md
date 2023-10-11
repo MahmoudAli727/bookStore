@@ -1,6 +1,6 @@
 # book_store_app
 
-### This App To buy books.
+### This App To display books.
 
 A few resources to project:
 
