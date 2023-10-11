@@ -47,8 +47,14 @@ class Home_View_Body extends StatelessWidget {
                                       Align(
                                         alignment: Alignment.centerLeft,
                                         child: SizedBox(
-                                          width: 100,
-                                          height: 150,
+                                          width: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              0.25,
+                                          height: MediaQuery.of(context)
+                                                  .size
+                                                  .height *
+                                              0.205,
                                           child: ClipRRect(
                                             borderRadius:
                                                 const BorderRadius.all(
